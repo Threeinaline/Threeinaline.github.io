@@ -7,13 +7,13 @@ import {
   Calendar, Flame, Edit3, Trash2, Cpu, Globe, Users, Radio, 
   ArrowRight, ShieldCheck, Gamepad2, Copy, Settings
 } from "lucide-react";
-import { checkGameState, WinResult } from "./utils/game-logic";
+import { checkGameState, WinResult } from "./game-logic";
 import { Player, BoardState, PlayerSymbol, MatchHistoryItem } from "./types";
 import { 
   playXSound, playOSound, playVictorySound, 
   playDrawSound, playErrorSound 
-} from "./utils/audio";
-import { calculateAiMove } from "./utils/ai";
+} from "./audio";
+import { calculateAiMove } from "./ai";
 import { db, auth } from "./firebase";
 import { 
   createNewRoom, 
