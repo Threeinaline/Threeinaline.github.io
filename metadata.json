@@ -1,0 +1,6 @@
+{
+  "name": "Three in a Line",
+  "description": "An elegant and clean two-player Tic-Tac-Toe game with premium custom branding, turn timers, and move histories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
