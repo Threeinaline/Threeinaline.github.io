@@ -24,7 +24,7 @@ import {
   getActiveLobbies, 
   LobbyRoom 
 } from "./multiplayer";
-import gameLogo from "./assets/images/game_logo_icon_1782493441937.jpg";
+import gameLogo from "./game_logo_icon_1782493441937.jpg";
 
 // List of professional theme colors
 const COLOR_PRESETS = [
